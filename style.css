@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+h1{
+	font-family: 'Pushster', cursive;
+}
+h2{
+	font-family: 'Pushster', cursive;
+	color: red;
+}
+#GT{
+	color: white;
+	font-size: 100px;
+	text-shadow: 17px 17px 21px rgba(253, 150, 150, 1);
+}
+.push{
+	padding: 50px;
+}
+.push {
+  list-style: none;
+  font-family: 'Pushster', cursive;
+}
+.push li {
+  position: relative;
+  padding: 20px 0 20px 40px;
+  color: red;
+  font-variant: small-caps;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 25px;
+}
+.push li:hover{
+  position: relative;
+  padding: 20px 0 20px 40px;
+  color: red;
+  font-variant: small-caps;
+  font-weight: bold;
+  cursor: pointer;
+  padding-left: 25px;
+  text-shadow: 17px 17px 21px rgba(145, 150, 150, 1);
+}
+.push li:before {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #4F5151;
+  content: "";
+  left: 0;
+  transition: .3s ease-in-out;
+  top: 27px;
+}
+.push li:after {
+  position: absolute;
+  border-left: 1px dotted #4F5151;
+  width: 1px;
+  bottom: -12px;
+  content: "";
+  left: 3px;
+  top: 48px;
+}
+.push li:hover:before{box-shadow: 0 0 0 10px rgba(0,0,0,.2)}
+.push li:last-child:after {content: none;}
+#top{
+	background-image: url(images/86ee8463b1d9ef475e52444ef4f3b7ba.jpg);
+	background-size: 100%;
+}
+#Ph1{
+	Border-style: solid;
+}
+#Priv{
+	display: flex;
+	flex-direction: center;
+	padding: 30px;
+}
+#Tt{
+	border-style: solid;
+	padding: 10px;
+	background-color: grey;
+    background: rgba(0, 0, 0, 0.4);
+	-webkit-box-shadow: 6px 6px 33px 2px rgba(34, 60, 80, 0.2) inset;
+-moz-box-shadow: 6px 6px 33px 2px rgba(34, 60, 80, 0.2) inset;
+box-shadow: 6px 6px 33px 2px rgba(34, 60, 80, 0.2) inset;
+-webkit-box-shadow: 5px 5px 24px 7px rgba(34, 60, 80, 0.25);
+-moz-box-shadow: 5px 5px 24px 7px rgba(34, 60, 80, 0.25);
+box-shadow: 5px 5px 24px 7px rgba(34, 60, 80, 0.25);
+}
+#Tt {
+	border-style: solid;
+	padding: 10px;
+	background-color: grey;
+    background: rgba(0, 0, 0, 0.4);
+	padding: 5px;
+}
+#Tt p{
+	 font-family: 'Pushster', cursive;
+	 font-size: 30px;
+	 padding: 5px;
+}
+#Tt h2{
+	 font-family: 'Pushster', cursive;
+	 font-size: 50px;
+	 padding: 5px;
+}
+#Prop{
+	padding: 10px;
+	background-image: url(images/86ee8463b1d9ef475e52444ef4f3b7ba.jpg);
+}
+#Prop h1{
+	color: white;
+	font-size: 50px;
+	text-shadow: 17px 17px 21px rgba(253, 150, 150, 1);
+}
+#PreFoot{
+	display: flex;
+	justify-content: center;
+}
+#Footer{
+	display: flex;
+	justify-content: space-around;
+}
+#page_up_down_button{
+	position: sticky;
+    bottom: 0;
+	Display: Flex;
+	Justify-content: flex-end;
+	border-radius: 50%;
+}
+
+#Im{
+	
+ animation-duration: 5s;
+ animation-iteration-count: infinite;
+  animation-name: slidein;
+  position: revative;
+  left: -1500px;
+  opacity: 1;
+  z-index: -1;
+}
+
+@keyframes slidein {
+  0%{
+transform: translate3d(-2000px, 40px, 0px);
+ width: 50%;
+ opacity: 1;
+ z-index: 1;
+  }
+
+  100%{
+transform: translate3d(2000px, 40px, 0px);
+    width: 50%;
+	opacity: 1;
+	z-index: 1;
+  }
+}
